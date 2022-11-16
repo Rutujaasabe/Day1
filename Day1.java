@@ -9,7 +9,7 @@ class Day1
 	Scanner sc =new Scanner(System.in);
 	System.out.println( "Enter the character ");
 	
-	char ch = sc.next();
+	char ch = sc.next().charAt(0);
 	if(ch=='a'||ch=='i'||ch=='e'||ch=='o'||ch=='u'||ch=='A'||ch=='I'||ch=='E'||ch=='O'||ch=='U')
         {
 	System.out.println("vowel");
